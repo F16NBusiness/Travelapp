@@ -141,24 +141,37 @@ Contains all test files.
 
 ## Requirements
 
-- iOS 15.0+
-- Xcode 13.0+
-- Swift 5.5+
+* iOS 15.0+
+* Xcode 13.0+
+* Swift 5.5+
+* [Homebrew](https://brew.sh) (for installing XcodeGen)
+* [XcodeGen](https://github.com/yonaskolb/XcodeGen) (for project generation)
 
 ## Installation
 
-1. Clone the repository:
+1. Install XcodeGen if you haven't already:
 ```bash
-git clone https://github.com/F16NBusiness/Travelapp.git
+brew install xcodegen
 ```
 
-2. Open the project in Xcode:
+2. Clone the repository:
 ```bash
+git clone https://github.com/F16NBusiness/Travelapp.git
 cd Travelapp
+```
+
+3. Generate the Xcode project:
+```bash
+cd TravelApp
+xcodegen generate
+```
+
+4. Open the project in Xcode:
+```bash
 open TravelApp.xcodeproj
 ```
 
-3. Build and run the project in Xcode
+5. Build and run the project in Xcode
 
 ## Architecture
 
@@ -166,10 +179,38 @@ The app follows the MVVM (Model-View-ViewModel) architecture pattern and uses Sw
 
 ### Key Components
 
-- **Models**: `Trip`, `Activity`, `ActivityCategory`
-- **ViewModels**: `TripsViewModel`, `ActivityDetailViewModel`
-- **Views**: `ContentView`, `TripDetailView`, `ActivityDetailView`, etc.
-- **Services**: `TripService` for data persistence
+- **Models**: Data models for the application
+- **ViewModels**: Business logic and state management
+- **Views**: SwiftUI views and UI components
+- **Services**: Core services including networking, storage, and AI integration
+
+## Features
+
+- Create and manage trips
+- Add activities to trips
+- Track activity completion
+- View trip details with maps
+- Organize trips by date
+- Add notes and additional information
+
+## Development
+
+### Project Structure Overview
+
+- `App/`: Contains application delegates and entry point
+- `Features/`: Feature-specific code (views, models, view models)
+- `Core/`: Shared business logic and utilities
+- `UI/`: Reusable UI components and screens
+- `Resources/`: Assets and localization files
+- `Tests/`: Unit and UI tests
+
+### Adding New Features
+
+1. Create appropriate directories in the `Features/` folder
+2. Add new models to `Models/`
+3. Create views in `UI/` for reusable components
+4. Update `project.yml` if needed
+5. Run `xcodegen generate` after structural changes
 
 ## License
 
