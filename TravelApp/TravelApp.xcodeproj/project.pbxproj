@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25A29D291A6202A4195D505D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224B9ADD5C4DDA35BE91277 /* ContentView.swift */; };
+		3DE674099C088EF536450A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C945BBED76871BCE3C75EF /* Assets.xcassets */; };
+		64DFF401AB511CB7A68EDE65 /* project.yml in Resources */ = {isa = PBXBuildFile; fileRef = BAD2D2A7E8E06F044D207F7A /* project.yml */; };
+		8D6E41828C27A8945A9EEE07 /* TravelAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8604DABB2373CA45FD2894 /* TravelAppApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00DF1491B352BC3F1C5841E2 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		03E0A7769956A80DB1EF51A7 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		063BFA22E8C12A043FED4795 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		0EE894685B839332F3035F9A /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		113C9BD1BBDFCABD6B65BB0D /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		1DD21F655D882B023C12CFD0 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		24603135CA5224B19CACD4A4 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		37F3F48DBCC681461AB630B7 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		3FDC12F31CD35E373F645F5A /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		4021F8986E4F0A641A20BB3A /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		40C945BBED76871BCE3C75EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50B62322D9644C708339A180 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		5224B9ADD5C4DDA35BE91277 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5B2C8B8F2A76E114B70E0581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5C4A0490E7C376BB0DC8F8EE /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		5E1C80F29610E845313B6F36 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		6EF8D40FD5812B7D03BF5265 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		70A6A2B25F8DC93E84533943 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		7D7E9CED6B7954131DB657CA /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		81AA43CCF396542BAA024506 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		81E1E280BC889BACA6347C71 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		8FB993E31F4B68860F156FAB /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		94D623DD25976D116DD238DE /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		953213FD867EF40818964255 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		978FE1DBCB01A11B4F6CD12E /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		980EA33479088BEBADD05D88 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		9D21D59E7D1521BFD58F386F /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		9EEF525E603FA50F1DB27465 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		A5F322C9EB5DB6231F20BB1C /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		A7BB2A8602F8DAADDD9E0E7D /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		A96FFB994C5FCBCDC8F7C53F /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		AC973279630F1ECC7A83B892 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		AC9B656D288A93860AD284C2 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		BAD2D2A7E8E06F044D207F7A /* project.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = project.yml; sourceTree = "<group>"; };
+		BEBA2E627E827F9DC6C61A4D /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		BED94CDEC36E9BE230653726 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		C0C19690FF5E4BABBBB2E6F5 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		CE1E6B057B4A3FAACA18381E /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		CE3F761B1F181C1CB71B7C94 /* TravelApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TravelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDC9740EEBB47FDE662BF5D /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		D39F3A2EA6B9D6F6D0F3E3F3 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		DB76171FB400DBDD8401D25A /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		DEE1EEFD72D45D90637074A7 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		E09E712D734EBCCEC8261F63 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		E516085B8EB6562C632D6800 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		EC8604DABB2373CA45FD2894 /* TravelAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelAppApp.swift; sourceTree = "<group>"; };
+		ED7946942E95FDDCDE78AF93 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		EE11F3389F4A298AFF63B7E7 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		EE6405C523C148AE1E3CF64D /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		F9EB7C7CAC1C3E73D7333109 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		FAD3D986AC1B0A1404FC494F /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		FEE41F3251016C9FEEB040C8 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		038759B0380BD8A4EDC21C13 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				113C9BD1BBDFCABD6B65BB0D /* .gitkeep */,
+				5B2C8B8F2A76E114B70E0581 /* Info.plist */,
+				EC8604DABB2373CA45FD2894 /* TravelAppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0CC03DA51760ECB7091074C5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				978FE1DBCB01A11B4F6CD12E /* .gitkeep */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0EB61EDF6641CCDD0DD6DCB3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E1C80F29610E845313B6F36 /* .gitkeep */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		10E4066372C1B9816E9AC2F6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EE11F3389F4A298AFF63B7E7 /* .gitkeep */,
+				9CA7CAAB5C28EB0E01C347B9 /* Constants */,
+				15C4ADA1A971E778772A4310 /* Extensions */,
+				7295C9C7420E269003586CEB /* Helpers */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1283733810EAC6513229A687 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				AC973279630F1ECC7A83B892 /* .gitkeep */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		15C4ADA1A971E778772A4310 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AC9B656D288A93860AD284C2 /* .gitkeep */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1E021D8F0A417ECC05D8BFE3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				81E1E280BC889BACA6347C71 /* .gitkeep */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		220ABEB17DF8F3CE5B4E2728 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E09E712D734EBCCEC8261F63 /* .gitkeep */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2A0339DF1A1B07C2A45718B8 /* Itinerary */ = {
+			isa = PBXGroup;
+			children = (
+				C0C19690FF5E4BABBBB2E6F5 /* .gitkeep */,
+				9B62848314A0696C46F47D74 /* Models */,
+				E1BD598F530785A0577B7C00 /* ViewModels */,
+				3C7DE68AE715B2AD3909661A /* Views */,
+			);
+			path = Itinerary;
+			sourceTree = "<group>";
+		};
+		2BD4C9F2DF6C754534C916F4 /* AIService */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC9740EEBB47FDE662BF5D /* .gitkeep */,
+			);
+			path = AIService;
+			sourceTree = "<group>";
+		};
+		35C014C4F9520065CCC39C31 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				ED7946942E95FDDCDE78AF93 /* .gitkeep */,
+				818221FF735D5C3038EF3CAC /* Models */,
+				A1E148ABFC9F6FCE3C6CE09B /* Services */,
+				10E4066372C1B9816E9AC2F6 /* Utils */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		39A936BC4C93C74A192096A5 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DEE1EEFD72D45D90637074A7 /* .gitkeep */,
+				7A4C2EB0CD4B63B1BAF8FBAB /* UITests */,
+				FC705BE0320E9EB84C2C0513 /* UnitTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		3C7DE68AE715B2AD3909661A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9EEF525E603FA50F1DB27465 /* .gitkeep */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3CE7F6A0CE60341BB49F3664 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				DB76171FB400DBDD8401D25A /* .gitkeep */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		3DB0DFE4F8E4B290A02988FB /* Destinations */ = {
+			isa = PBXGroup;
+			children = (
+				D39F3A2EA6B9D6F6D0F3E3F3 /* .gitkeep */,
+				E4D6250983849B788F2EA4C5 /* Models */,
+				1E021D8F0A417ECC05D8BFE3 /* ViewModels */,
+				0EB61EDF6641CCDD0DD6DCB3 /* Views */,
+			);
+			path = Destinations;
+			sourceTree = "<group>";
+		};
+		4247F42DFEB677BEB2E44CBB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				03E0A7769956A80DB1EF51A7 /* .gitkeep */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		43C3AF8BF9F5AF970B462A81 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				BEBA2E627E827F9DC6C61A4D /* .gitkeep */,
+				B8FA647DC0BD4C9428661418 /* Home */,
+				F86C0422E49019E7E6E37D00 /* Search */,
+				DB69C398B3BCE245DD293B8B /* Settings */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		540787D89EDE86CF5A87A813 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BED94CDEC36E9BE230653726 /* .gitkeep */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		576E841D1B3F5AA7DBDD91A8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E516085B8EB6562C632D6800 /* .gitkeep */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5C5A1E5BF5D062142AED5676 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				CE1E6B057B4A3FAACA18381E /* .gitkeep */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		68F1BE99C6AF7BAAB012918D /* TravelApp */ = {
+			isa = PBXGroup;
+			children = (
+				FAD3D986AC1B0A1404FC494F /* .gitkeep */,
+				BAD2D2A7E8E06F044D207F7A /* project.yml */,
+				038759B0380BD8A4EDC21C13 /* App */,
+				35C014C4F9520065CCC39C31 /* Core */,
+				CAEBF1B5F3A76AF4866553CA /* Features */,
+				CC6952248748EF3D2D775252 /* Resources */,
+				39A936BC4C93C74A192096A5 /* Tests */,
+				A5EAF7C3B318E07F3E89AB50 /* UI */,
+			);
+			name = TravelApp;
+			path = .;
+			sourceTree = "<group>";
+		};
+		7295C9C7420E269003586CEB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F9EB7C7CAC1C3E73D7333109 /* .gitkeep */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7A4C2EB0CD4B63B1BAF8FBAB /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FDC12F31CD35E373F645F5A /* .gitkeep */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		818221FF735D5C3038EF3CAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9D21D59E7D1521BFD58F386F /* .gitkeep */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		85610892901C25759C4EC424 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE3F761B1F181C1CB71B7C94 /* TravelApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A69D405819608B360DD285E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				37F3F48DBCC681461AB630B7 /* .gitkeep */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9B62848314A0696C46F47D74 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				70A6A2B25F8DC93E84533943 /* .gitkeep */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9CA7CAAB5C28EB0E01C347B9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				EE6405C523C148AE1E3CF64D /* .gitkeep */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		A1E148ABFC9F6FCE3C6CE09B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				980EA33479088BEBADD05D88 /* .gitkeep */,
+				2BD4C9F2DF6C754534C916F4 /* AIService */,
+				CCF15C4CFEFD2D54C9EB23FB /* LocationService */,
+				BF1BF07121D34A715F7EBA0C /* NetworkService */,
+				E843AF11E22CD622C6DF45C6 /* StorageService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A315F6E1BAEABED7B842FDE6 = {
+			isa = PBXGroup;
+			children = (
+				038759B0380BD8A4EDC21C13 /* App */,
+				35C014C4F9520065CCC39C31 /* Core */,
+				CAEBF1B5F3A76AF4866553CA /* Features */,
+				CC6952248748EF3D2D775252 /* Resources */,
+				39A936BC4C93C74A192096A5 /* Tests */,
+				68F1BE99C6AF7BAAB012918D /* TravelApp */,
+				A5EAF7C3B318E07F3E89AB50 /* UI */,
+				85610892901C25759C4EC424 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5EAF7C3B318E07F3E89AB50 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				94D623DD25976D116DD238DE /* .gitkeep */,
+				C9ED8973B2EDE33C290A7436 /* Components */,
+				43C3AF8BF9F5AF970B462A81 /* Screens */,
+				5C5A1E5BF5D062142AED5676 /* Styles */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AC0B70B243CBD16A5E879E3C /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				A5F322C9EB5DB6231F20BB1C /* .gitkeep */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		B8FA647DC0BD4C9428661418 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A96FFB994C5FCBCDC8F7C53F /* .gitkeep */,
+				5224B9ADD5C4DDA35BE91277 /* ContentView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BF1BF07121D34A715F7EBA0C /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				50B62322D9644C708339A180 /* .gitkeep */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		C9ED8973B2EDE33C290A7436 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1DD21F655D882B023C12CFD0 /* .gitkeep */,
+				3CE7F6A0CE60341BB49F3664 /* Buttons */,
+				1283733810EAC6513229A687 /* Cards */,
+				D7F3469504FED4C3A6DECC1C /* Lists */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CAEBF1B5F3A76AF4866553CA /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				0EE894685B839332F3035F9A /* .gitkeep */,
+				E0ABB63D541388DB5EEA31CC /* Authentication */,
+				3DB0DFE4F8E4B290A02988FB /* Destinations */,
+				2A0339DF1A1B07C2A45718B8 /* Itinerary */,
+				DF4771AA0401F52676337B9A /* Profile */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		CC6952248748EF3D2D775252 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				24603135CA5224B19CACD4A4 /* .gitkeep */,
+				40C945BBED76871BCE3C75EF /* Assets.xcassets */,
+				0CC03DA51760ECB7091074C5 /* Fonts */,
+				AC0B70B243CBD16A5E879E3C /* Localization */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CCF15C4CFEFD2D54C9EB23FB /* LocationService */ = {
+			isa = PBXGroup;
+			children = (
+				FEE41F3251016C9FEEB040C8 /* .gitkeep */,
+			);
+			path = LocationService;
+			sourceTree = "<group>";
+		};
+		D7F3469504FED4C3A6DECC1C /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				8FB993E31F4B68860F156FAB /* .gitkeep */,
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
+		DB69C398B3BCE245DD293B8B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				063BFA22E8C12A043FED4795 /* .gitkeep */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		DD36BC0277E3A54EC96B6628 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A0490E7C376BB0DC8F8EE /* .gitkeep */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DF4771AA0401F52676337B9A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				81AA43CCF396542BAA024506 /* .gitkeep */,
+				4247F42DFEB677BEB2E44CBB /* Models */,
+				576E841D1B3F5AA7DBDD91A8 /* ViewModels */,
+				220ABEB17DF8F3CE5B4E2728 /* Views */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		E0ABB63D541388DB5EEA31CC /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				953213FD867EF40818964255 /* .gitkeep */,
+				DD36BC0277E3A54EC96B6628 /* Models */,
+				8A69D405819608B360DD285E /* ViewModels */,
+				540787D89EDE86CF5A87A813 /* Views */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		E1BD598F530785A0577B7C00 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				00DF1491B352BC3F1C5841E2 /* .gitkeep */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E4D6250983849B788F2EA4C5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A7BB2A8602F8DAADDD9E0E7D /* .gitkeep */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E843AF11E22CD622C6DF45C6 /* StorageService */ = {
+			isa = PBXGroup;
+			children = (
+				6EF8D40FD5812B7D03BF5265 /* .gitkeep */,
+			);
+			path = StorageService;
+			sourceTree = "<group>";
+		};
+		F86C0422E49019E7E6E37D00 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				4021F8986E4F0A641A20BB3A /* .gitkeep */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		FC705BE0320E9EB84C2C0513 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D7E9CED6B7954131DB657CA /* .gitkeep */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61043DDAB339B4F787C0991C /* TravelApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75EF2A408579CAD82DFDB50F /* Build configuration list for PBXNativeTarget "TravelApp" */;
+			buildPhases = (
+				F2C6180FF3859EDC18B10CE1 /* Run Script */,
+				17D0488D74DC36ABDFD3DBF8 /* Sources */,
+				B3320B6CDE8C2172E6A9B6FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelApp;
+			packageProductDependencies = (
+			);
+			productName = TravelApp;
+			productReference = CE3F761B1F181C1CB71B7C94 /* TravelApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C11BC16AB02783632A15EB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = BB52133C686FCCDE82EC02D2 /* Build configuration list for PBXProject "TravelApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A315F6E1BAEABED7B842FDE6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 54;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61043DDAB339B4F787C0991C /* TravelApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3320B6CDE8C2172E6A9B6FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE674099C088EF536450A1A /* Assets.xcassets in Resources */,
+				64DFF401AB511CB7A68EDE65 /* project.yml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F2C6180FF3859EDC18B10CE1 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${CONFIGURATION}\" = \"Debug\" ]; then\n  echo \"Debug build - skipping optimization\"\nfi ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17D0488D74DC36ABDFD3DBF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A29D291A6202A4195D505D /* ContentView.swift in Sources */,
+				8D6E41828C27A8945A9EEE07 /* TravelAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1309DF9156D6CB7C229E2939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		16BB5AF90BB248835C281A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.f16nbusiness.travelapp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C9382BA6545B23C1DA9CD33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		906DEF4B1D3A0C4B96F535EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.f16nbusiness.travelapp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75EF2A408579CAD82DFDB50F /* Build configuration list for PBXNativeTarget "TravelApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				906DEF4B1D3A0C4B96F535EB /* Debug */,
+				16BB5AF90BB248835C281A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BB52133C686FCCDE82EC02D2 /* Build configuration list for PBXProject "TravelApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1309DF9156D6CB7C229E2939 /* Debug */,
+				4C9382BA6545B23C1DA9CD33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C11BC16AB02783632A15EB1 /* Project object */;
+}

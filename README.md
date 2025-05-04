@@ -155,7 +155,7 @@ git clone https://github.com/F16NBusiness/Travelapp.git
 2. Open the project in Xcode:
 ```bash
 cd Travelapp
-open ExploreAI.xcodeproj
+open TravelApp.xcodeproj
 ```
 
 3. Build and run the project in Xcode

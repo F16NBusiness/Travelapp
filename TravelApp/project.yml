@@ -1,0 +1,35 @@
+name: TravelApp
+options:
+  bundleIdPrefix: com.f16nbusiness
+  deploymentTarget:
+    iOS: 15.0
+
+targets:
+  TravelApp:
+    type: application
+    platform: iOS
+    sources:
+      - path: .
+        excludes:
+          - "*.gitkeep"
+    settings:
+      base:
+        INFOPLIST_FILE: App/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.f16nbusiness.travelapp
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleName: TravelApp
+        CFBundleDisplayName: TravelApp
+        UILaunchStoryboardName: LaunchScreen
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+          UISceneConfigurations:
+            UIWindowSceneSessionRoleApplication:
+              - UISceneConfigurationName: Default Configuration
+                UISceneDelegateClassName: $(PRODUCT_MODULE_NAME).SceneDelegate
+    preBuildScripts:
+      - script: |
+          if [ "${CONFIGURATION}" = "Debug" ]; then
+            echo "Debug build - skipping optimization"
+          fi 
